@@ -2,5 +2,17 @@
 	"name": "Article Dex Lite",
 	"description": "Article Dex Chrome Extension",
 	"version": "1.0",
-	"manifest_version": 3
+	"manifest_version": 3,
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"]
+		}
+	],
+	"browser_action": {
+		"default_icon": "icon.png"
+	}
 }
