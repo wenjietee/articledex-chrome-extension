@@ -15,5 +15,64 @@
 		<script src="popup.js"></script>
 		<title>Article Dex Lite</title>
 	</head>
-	<body></body>
+	<body>
+		<div class="container">
+			<h5>Article Dex Lite</h5>
+            <p class="fine"><small >Save anywhere, read later.</small></p>
+			<form>
+				<div class="row">
+                    <div class="twelve columns">
+                        <p class="headers">User:<span class="user"> Username</span></p>
+                    </div>
+					<div class="twelve columns">
+                        
+						<p class="headers">
+							URL: <span class="url">www.test.com/</span>
+						</p>
+					</div>
+					<div class="twelve columns">
+						<input
+							class="u-full-width"
+							type="text"
+							placeholder="Title"
+							id="title"
+						/>
+					</div>
+					<div class="twelve columns">
+						<select class="u-full-width">
+							<option value="" disabled selected hidden>
+								Select Article Type
+							</option>
+							<option value="medium">medium</option>
+							<option value="dev.to">dev.to</option>
+							<option value="webpage">
+								webpage (will try my best!)
+							</option>
+						</select>
+					</div>
+				</div>
+				<div class="twelve columns">
+					<textarea
+						class="u-full-width"
+						placeholder="Description"
+						id="description"
+					></textarea>
+				</div>
+				<div class="twelve columns">
+					<label for="tags"></label>
+					<input
+						class="u-full-width"
+						type="text"
+						placeholder="Tags: Seperate with spacing. Eg. Tag1 Tag2"
+						id="tags"
+					/>
+				</div>
+				<input
+					class="button-primary"
+					type="submit"
+					value="Save Article"
+				/>
+			</form>
+		</div>
+	</body>
 </html>

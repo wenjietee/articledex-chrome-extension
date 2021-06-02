@@ -1,0 +1,33 @@
+/* main */
+.container{
+    width:360px;
+    text-align:center;
+    margin:  0 auto;
+    margin-top:2em;
+}
+
+
+/* headers */
+h5{
+    font-weight:bold; 
+}
+.fine{
+    margin-top:-1em;
+    padding-bottom: 1em;
+}
+
+/* form */
+.row,.form-name{
+    margin-top:-1rem;
+}
+.form-name{
+    font-weight:bold;
+}
+.columns{
+    text-align:left;
+}
+
+.button-primary{
+    border: none !important;
+    background-color: #3f51b5 !important ; 
+}
