@@ -13,6 +13,5 @@
 		"default_popup": "popup.html",
 		"default_title": "Article Dex Lite"
 	},
-	"permissions": ["tabs"],
-	"background": { "scripts": ["background.js"] }
+	"permissions": ["tabs"]
 }
