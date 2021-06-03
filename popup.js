@@ -30,7 +30,7 @@ const setTitle = () => {
 const onClick = () => {
 	// set data payload
 	const data = {
-		user: '3',
+		user: document.querySelector('.user').textContent,
 		url: document.querySelector('.url').textContent,
 		title: document.querySelector('.title').textContent,
 		article_type: document.getElementById('article_type').value,

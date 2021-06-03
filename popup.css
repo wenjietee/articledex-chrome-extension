@@ -1,4 +1,7 @@
 /* main */
+body {
+	font-size: 12px;
+}
 .container {
 	width: 360px;
 	text-align: center;
@@ -13,6 +16,7 @@ h5 {
 .fine {
 	margin-top: -1em;
 	padding-bottom: 1em;
+	font-size: 13px;
 }
 .url {
 	display: inline-block;
