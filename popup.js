@@ -5,7 +5,7 @@ chrome.tabs.query({ currentWindow: true, active: true }, (tabs) => {
 	// set url on popup
 	document.querySelector('.url').innerHTML = url;
 
-	// set option for article type
+	// set select option for article type
 	if (url.includes('medium')) {
 		document.getElementById('article_type').value = 'medium';
 	} else if (url.includes('dev.to')) {
@@ -14,8 +14,6 @@ chrome.tabs.query({ currentWindow: true, active: true }, (tabs) => {
 		document.getElementById('article_type').value = 'webpage';
 	}
 });
-
-// set select option for article type
 
 const onClick = () => {
 	let url = document.querySelector('.url').textContent;
