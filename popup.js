@@ -14,9 +14,9 @@ const initPageData = () => {
 		}
 
 		// set title
-		document.querySelector('.title').innerHTML = tabs[0].title;
+		document.querySelector('.title').innerText = tabs[0].title;
 		// set url on popup
-		document.querySelector('.url').innerHTML = url;
+		document.querySelector('.url').innerText = url;
 	});
 };
 
@@ -30,15 +30,21 @@ const setTitle = () => {
 const onClick = () => {
 	// set data payload
 	const data = {
-		user: document.querySelector('.user').textContent,
 		url: document.querySelector('.url').textContent,
-		title: document.querySelector('.title').textContent,
+		user: document.getElementById('user').value,
 		article_type: document.getElementById('article_type').value,
 		description: document.getElementById('description').value,
-		tags: document.getElementById('tags').value,
+		tags: document.getElementById('tags').value.split(' '),
 	};
 
-	alert(JSON.stringify(data, null, 2));
+	// post request to create article on article dex
+	const xhr = new XMLHttpRequest();
+	xhr.open('POST', 'http://127.0.0.1:8000/api/articles/ext/create/', true);
+	xhr.setRequestHeader('Content-Type', 'application/json');
+	xhr.send(JSON.stringify(data));
+
+	// to set exception for 400 and 500 error
+	alert(`Article created for under ${user.value}`);
 };
 
 // event listeners
