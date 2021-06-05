@@ -13,5 +13,6 @@
 		"default_popup": "popup.html",
 		"default_title": "Article Dex Lite"
 	},
-	"permissions": ["tabs"]
+	"permissions": ["tabs"],
+	"icons": { "16": "logo192.png", "48": "logo192.png", "128": "logo192.png" }
 }
