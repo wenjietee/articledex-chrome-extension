@@ -39,7 +39,11 @@ const onClick = () => {
 
 	// post request to create article on article dex
 	const xhr = new XMLHttpRequest();
-	xhr.open('POST', 'http://127.0.0.1:8000/api/articles/ext/create/', true);
+	xhr.open(
+		'POST',
+		'https://articledex.herokuapp.com/api/articles/ext/create/',
+		true
+	);
 	xhr.setRequestHeader('Content-Type', 'application/json');
 	xhr.send(JSON.stringify(data));
 
