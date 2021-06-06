@@ -45,9 +45,9 @@ const onClick = () => {
 		true
 	);
 	xhr.setRequestHeader('Content-Type', 'application/json');
+
 	xhr.send(JSON.stringify(data));
 
-	// to set exception for 400 and 500 error
 	alert(`Article created for under ${user.value}`);
 };
 
