@@ -26,7 +26,7 @@ Main Application Link: [articledex.herokuapp.com](https://articledex.herokuapp.c
 
     -   ![alt text](media/adex-ext-4.png '4')
 
--   You are done! You can start saving articles as you browser if you've signed up on Article Dex. ( [articledex.herokuapp.com](https://articledex.herokuapp.com) )
+-   You are done! You can start saving articles as you browse if you've signed up on [Article Dex](https://articledex.herokuapp.com).
 
 ## How to use:
 
