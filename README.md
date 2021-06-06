@@ -5,6 +5,8 @@
 Article Dex Lite is a Chrome extension to enchance the Article Dex experience.
 Upon installing the extension, users can navigate to any web articles and save the articles to Article Dex while away or not signed into the main application.
 
+Main Application Link: [articledex.herokuapp.com](https://articledex.herokuapp.com)
+
 ## Installation:
 
 -   Clone this repository to your desktop.
@@ -24,7 +26,7 @@ Upon installing the extension, users can navigate to any web articles and save t
 
     -   ![alt text](media/adex-ext-4.png '4')
 
--   You are done! You can start saving articles as you browser if you've signed up on Article Dex. (articledex.herokuapp.com)
+-   You are done! You can start saving articles as you browser if you've signed up on Article Dex. ( [articledex.herokuapp.com](https://articledex.herokuapp.com) )
 
 ## How to use:
 
