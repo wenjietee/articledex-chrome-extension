@@ -32,7 +32,7 @@ Main Application Link: [articledex.herokuapp.com](https://articledex.herokuapp.c
 
 -   Browse to a web article of interest.
 
--   Click on Article Dex extension on the extension toolbar (top right). If you haven pin it yet, refer to the installation guide.
+-   Click on Article Dex extension on the extension toolbar (top right). If you have not pin it to the toolbar, refer to the installation guide.
 
 -   The extension will display the url and title of the page you are browsing.
 
